@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Migrant Kitchen - NYC</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid px-lg-5">
+        <a class="navbar-brand" href="#">
+            <span class="logo-top">THE</span>
+            <span class="logo-mid">MIGRANT</span>
+            <span class="logo-bot">KITCHEN</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a class="nav-link" href="locations.html">Locations</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menus</a></li>
+                <li class="nav-item"><a class="nav-link" href="catering.html">Catering <i class="fas fa-chevron-down ms-1" style="font-size:10px"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About <i class="fas fa-chevron-down ms-1" style="font-size:10px"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="do_good.html">Do Good</a></li>
+                <li class="nav-item ms-lg-3">
+                    <button class="btn-order">Order Online</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+        <div class="carousel-item active hero-section">
+            <img src="images/photo-1637806930600-37fa8892069d.avif" class="hero-img" alt="Hummus">
+            <div class="hero-overlay">
+                <h1 class="hero-title">EAT WELL. DO GOOD.</h1>
+                <p class="hero-subtitle">Open daily on the UWS and Central Park!</p>
+            </div>
+        </div>
+
+        <div class="carousel-item hero-section">
+            <img src="images/photo-1568901346375-23c9450c58cd.avif" class="hero-img" alt="Burger">
+            <div class="hero-overlay">
+                <h1 class="hero-title">EAT WELL. DO GOOD.</h1>
+                <p class="hero-subtitle">Delicious food for a good cause.</p>
+            </div>
+        </div>
+
+        <div class="carousel-item hero-section">
+            <img src="images/photo-1555939594-58d7cb561ad1.avif" class="hero-img" alt="Feast">
+            <div class="hero-overlay">
+                <h1 class="hero-title">VISIT US TODAY</h1>
+                <p class="hero-subtitle">Experience the flavors of migration.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<div class="container-fluid px-0">
+    <div class="row g-1">
+
+        <div class="col-lg-6 col-12">
+            <div class="grid-card bg-menu">
+                <div class="grid-overlay"></div>
+                <div class="grid-content">
+                    <h2 class="grid-title">MENU</h2>
+                    <a href="#" class="btn-grid">VIEW MENU</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+            <div class="grid-card bg-catering">
+                <div class="grid-overlay"></div>
+                <div class="grid-content">
+                    <h2 class="grid-title">CATERING</h2>
+                    <a href="#" class="btn-grid">ORDER CATERING</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+            <div class="grid-card bg-locations">
+                <div class="grid-overlay"></div>
+                <div class="grid-content">
+                    <h2 class="grid-title">LOCATIONS</h2>
+                    <a href="#" class="btn-grid">VIEW LOCATIONS</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+            <div class="grid-card bg-story">
+                <div class="grid-overlay"></div>
+                <div class="grid-content">
+                    <h2 class="grid-title">OUR STORY</h2>
+                    <a href="#" class="btn-grid">OUR STORY</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<<section class="press-section text-center">
+    <div class="container">
+        <h2 class="press-header">AS SEEN IN</h2>
+        
+        <div class="d-flex justify-content-center align-items-center flex-wrap gap-5 press-logos">
+
+            <div class="text-center mx-4">
+                <img src="images/The_New_York_Times_logo.png" alt="The New York Times" class="press-logo nyt-logo">
+                <p class="press-caption">The New York Times</p>
+            </div>
+
+            <div class="text-center mx-4">
+                <h3 style="font-family: 'Arial Black', 'Helvetica Neue', sans-serif; font-weight: 900; font-size: 40px; color: #D9230F; letter-spacing: -3px; margin-bottom: 0; line-height: 1; transform: scaleY(0.9);">
+                    EATER
+                </h3>
+                <p class="press-caption">Eater</p>
+            </div>
+
+            <div class="text-center mx-4">
+                <img src="images/NBC_logo.svg.png" alt="NBC" class="press-logo nbc-logo">
+                <p class="press-caption">NBC</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<footer class="main-footer">
+    <div class="container-fluid px-5">
+        <div class="row align-items-center footer-content">
+
+            <div class="col-lg-3 text-center text-lg-start mb-3 mb-lg-0">
+                <a href="#" class="social-circle"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-circle"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-circle"><i class="fab fa-tiktok"></i></a>
+            </div>
+
+            <div class="col-lg-5 text-center footer-nav mb-3 mb-lg-0">
+                <a href="#">Gift Cards</a>
+                <a href="#">Jobs</a>
+                <a href="#">Contact</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+            <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end align-items-center footer-right">
+                <button class="btn-rewards">REWARDS SIGNUP</button>
+                <div class="access-icon">
+                    <i class="fas fa-universal-access"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<div class="bentobox-strip">powered by BentoBox</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
